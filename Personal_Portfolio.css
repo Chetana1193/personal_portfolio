@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar{
+    width: 100%;
+    position:fixed;
+    background-color: brown;
+}
+.navbar ul{
+    overflow: auto;  
+}
+.navbar li{
+    padding: 10px 40px;
+    float: right;
+    list-style:none;
+}
+.navbar li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.developer{
+    height: 100vh;
+    background-color: #252925;
+    display: flex; 
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* border:2px solid white; */
+}
+.name{
+    color: white;
+}
+.profession{
+    color: red;  
+}
+.project-container{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    text-align: center;
+}
+.project-container h1 {
+    margin: 0;
+    padding: 100px 10px;
+}
+.project{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    
+}
+.work{
+    
+    margin: 50px;
+    /* background-color: slategrey; */
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    
+    color: white;
+}
+.work img{
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width:100%;
+
+}
+.image{
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    margin: 0;
+    padding:0;
+    /* width: 100%; */
+    /* height:100%; */
+    
+}
+.assign{
+    width: 100%;
+    background-color: grey;
+    
+}
+.pointer{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+   
+}
+.button {
+    margin: 100px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: slategrey;
+    color: white;
+}
+
+.third-container{
+    height: 500px;
+    margin: 0;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    padding: 100px 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.social-icons a{
+   
+    background-color: grey;
+    text-decoration:none;
+    margin: 10px;
+    font-size: 20px;
+}
+.footer{
+    margin: 10px 0;
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    font-size: 15px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.social-icons a:hover{
+color: blue;
+}
